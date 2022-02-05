@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import reducer, { initialState} from "./reducer";
-import { StateProvider } from "C:/Users/Gigi/Desktop/Amazonclone/amazon-clone/src/StateProvider.js";
+import { StateProvider } from "StateProvider";
 
 ReactDOM.render( 
   <React.StrictMode>
