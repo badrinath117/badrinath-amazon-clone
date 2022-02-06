@@ -165,7 +165,7 @@ import { db } from './firebase';
   
         </div>
     )
-}
+
 }
  
 export default Payment
