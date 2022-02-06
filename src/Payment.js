@@ -85,7 +85,7 @@ import { db } from './firebase';
      setError(event.error ? event.error.message : "")
 
 
-    }
+    
  
 
     return (
@@ -165,6 +165,7 @@ import { db } from './firebase';
   
         </div>
     )
+}
 }
  
 export default Payment
