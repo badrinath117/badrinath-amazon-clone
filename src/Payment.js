@@ -51,10 +51,10 @@ import { db } from './firebase';
         event.preventDefault();
         setProcessing(true);
 
-        const payload = await stripe.confirmCardPayment(clientSecret, {
+     {/*const payload = await stripe.confirmCardPayment(clientSecret, {
             payment_method: {
                 card: elements.getElement(CardElement)
-            }
+            }*/}
         }).then(({paymentIntent}) => {
             //paymentintent=payment confirmation
 
