@@ -76,7 +76,7 @@ import { db } from './firebase';
                 type: 'EMPTY_BASKET'
             })
 
-            history .replace('/orders')
+            history.replace('/orders')
         })
     }
     const handleChange = event => {
