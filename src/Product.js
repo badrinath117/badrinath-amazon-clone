@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Product.css"
 import StarIcon from '@material-ui/icons/Star';
-import img2 from "./bookM.jpg"
+//import img2 from "./bookM.jpg"
 import { UseStateValue } from './StateProvider';
 function Product({id, Info, Price, Rating, Image}) {
   const [{basket}, dispatch] = UseStateValue();
