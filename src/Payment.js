@@ -55,7 +55,7 @@ import { db } from './firebase';
             payment_method: {
                 card: elements.getElement(CardElement)
             }*/}
-        });.then(({paymentIntent}) => {
+        };);.then(({paymentIntent}) => {
             //paymentintent=payment confirmation
 
             db
